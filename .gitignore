@@ -1,0 +1,28 @@
+# Helm stuff
+**/charts/*.tgz
+**/requirements.lock
+**/Chart.lock
+
+# Generated example yaml
+/build
+*.tar.gz
+
+# OSX trash
+.DS_Store
+
+#terratest 
+**/terratest/pkg/*
+**/terratest/bin/*
+**/terratest/src/test/vendor
+
+# IntelliJ IDEA
+**/.idea
+**/*.iml
+
+# VS Code
+.vscode/*
+
+# doc-service
+docs-service/docs-service.yml
+docs-service/docs-service-stop.cmd
+docs-service/docs-service-start.cmd
